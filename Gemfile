@@ -3,8 +3,8 @@ source "https://rubygems.org"
 gem "dotenv"
 gem "geminabox"
 
-group :development do
-  gem "thin"
+group :deploy do
   gem "capistrano"
+  gem "capistrano-bundler"
   gem "capistrano-rbenv"
 end
