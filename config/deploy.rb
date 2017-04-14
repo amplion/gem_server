@@ -43,7 +43,7 @@ set :linked_dirs, %w{tmp log}
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-set :rbenv_ruby, '2.2.3'
+set :rbenv_ruby, '2.4.1'
 
 namespace :deploy do
 
