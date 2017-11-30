@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.8.0'
+lock '3.10.0'
 
 set :application, 'gem_server'
 set :repo_url, 'git@github.com:amplion/gem_server.git'
